@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry pie cheat sheet</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspberry Pi Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Raspberry Pi Cheat Sheet</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Command/Configuration</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Update System</td>
+            <td><code>sudo apt update</code></td>
+            <td>Updates the package list.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>sudo apt upgrade</code></td>
+            <td>Upgrades installed packages to the latest versions.</td>
+        </tr>
+        <tr>
+            <td>Install Software</td>
+            <td><code>sudo apt install &lt;package_name&gt;</code></td>
+            <td>Installs a specific package. Replace &lt;package_name&gt; with the desired software.</td>
+        </tr>
+        <tr>
+            <td>File Management</td>
+            <td><code>ls</code></td>
+            <td>Lists files in the current directory.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>cd &lt;directory&gt;</code></td>
+            <td>Changes the current directory to &lt;directory&gt;.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>cp &lt;source&gt; &lt;destination&gt;</code></td>
+            <td>Copies files from source to destination.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>mv &lt;source&gt; &lt;destination&gt;</code></td>
+            <td>Moves or renames files.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>rm &lt;file&gt;</code></td>
+            <td>Deletes a file.</td>
+        </tr>
+        <tr>
+            <td>Networking</td>
+            <td><code>ifconfig</code></td>
+            <td>Displays network configuration.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>ping &lt;address&gt;</code></td>
+            <td>Tests connectivity to a specific address.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>ssh &lt;user&gt;@&lt;ip_address&gt;</code></td>
+            <td>Connects to another machine via SSH.</td>
+        </tr>
+        <tr>
+            <td>Raspberry Pi Config</td>
+            <td><code>sudo raspi-config</code></td>
+            <td>Opens the Raspberry Pi configuration tool.</td>
+        </tr>
+        <tr>
+            <td>Reboot/Shutdown</td>
+            <td><code>sudo reboot</code></td>
+            <td>Reboots the Raspberry Pi.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>sudo shutdown now</code></td>
+            <td>Shuts down the Raspberry Pi immediately.</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td><code>python3 &lt;script.py&gt;</code></td>
+            <td>Runs a Python script.</td>
+        </tr>
+        <tr>
+            <td>GPIO Contro</td>
+            <td><code>import RPi.GPIO as            GPIO</code></td>
+            <td>Imports the GPIO library in Python.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>GPIO.setmode(GPIO.BCM)</code></td>
+            <td>Sets the pin numbering system to BCM.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><code>GPIO.setup(&lt;pin&gt;, GPIO.OUT)</code></td>
+            <td>Configures a pin as an output.</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
+
+    
+</body>
+</html>
